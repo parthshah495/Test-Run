@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Test Run
+  host: Test-Run1
+  disk_quota: 1024M
+  services:
+  - Test Run-cloudantNoSQLDB
+  - Test Run-iotf-service
+  - Speech to Text-84
+  - availability-monitoring-auto
